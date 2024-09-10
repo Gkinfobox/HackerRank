@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+
+      //Scanner for get input from user...
+        Scanner s = new Scanner(System.in);
+
+      // First line should hello world....
+        System.out.println("Hello, World.");
+
+     // declare variable for store the string..... 
+        String inpustring = s.nextLine();
+
+      //Next line is given input...
+        System.out.println(inpustring);
+    }
+}
