@@ -6,8 +6,8 @@ public class Solution {
     public static void main(String[] args) {
         
         Scanner s = new Scanner(System.in);
-        String inputstr = s.nextLine();
+        String inputstr = s.nextLine();     // Getting Input from the user
         System.out.println("Hello, World.");
-        System.out.println(inputstr);
+        System.out.println(inputstr);       // Print that input in next line.
     }
 }
